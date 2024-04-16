@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@font-face {
+  font-family: Fantasque;
+  src: url(../fonts/FantasqueSansMono-Bold.woff2);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Fantasque;
+  src: url(../fonts/FantasqueSansMono-Regular.woff2);
+}
+@font-face {
+  font-family: Fantasque;
+  src: url(../fonts/FantasqueSansMono-Italic.woff2);
+  font-style: italic;
+}
+@font-face {
+  font-family: Fantasque;
+  src: url(../fonts/FantasqueSansMono-BoldItalic.woff2);
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+:link {
+	color: #ff8f40;
+}
+:visited {
+	color: #e6b673;
+}
+a:hover {
+	color: #ffb454;
+}
+
+:root {
+	font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    background-color: #131721 /*#0D1017*/;
+    color: #BFBDB6;
+
+}
+
+.cont {
+	position: relative;
+	max-width: 100%;
+	width: 50rem;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header {
+	background-color: #0D1017;
+/*	width: 100%; */
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 10px 10px 10px;
+	line-height: 1.4em;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+}
+
+main {
+/*	width: 100%; */
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 13px 13px 10px;
+}
+
+h4 {
+	margin-bottom: 3px;
+	margin-top: 3px;
+	color: #95e6cb;
+}
+p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.margintop {
+	margin-top: 15px;
+}
+
+.monospace {
+	font-family: Fantasque, monospace;
+	padding: 5px;
+	background-color: #212733;
+}
